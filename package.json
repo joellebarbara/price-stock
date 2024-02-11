@@ -1,0 +1,29 @@
+{
+  "name": "price-stock",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=test nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "body-parser": "1.19.0",
+    "chai": "4.2.0",
+    "chai-http": "4.3.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "helmet": "3.21.2",
+    "mocha": "7.0.1",
+    "mongodb": "3.5.2",
+    "nodemon": "2.0.2",
+    "zombie": "6.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joellebarbara/price-stock"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
+
